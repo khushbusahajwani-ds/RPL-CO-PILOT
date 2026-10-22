@@ -60,7 +60,7 @@ button {
 
 .sidebar-brand strong {
   display: block;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
 .sidebar-brand span {
@@ -1455,7 +1455,6 @@ h1 {
   .passport-actions {
     flex-direction: column;
   }
-};
 }
 
 .passport-footer {

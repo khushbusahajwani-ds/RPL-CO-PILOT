@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type FormEvent, type ReactNode } from "react";
 import {
   ArrowRight,
   Award,

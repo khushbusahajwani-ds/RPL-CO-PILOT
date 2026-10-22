@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 import {
   ArrowRight,
   CheckCircle2,
@@ -20,7 +20,7 @@ export default function EvidenceCapture({
 }: EvidenceCaptureProps) {
   const [files, setFiles] = useState<string[]>([]);
 
-  const handleFile = (event: React.ChangeEvent<HTMLInputElement>) => {
+ const handleFile = (event: ChangeEvent<HTMLInputElement>) => {
     const selectedFile = event.target.files?.[0];
 
     if (!selectedFile) return;
